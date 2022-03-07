@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,700;1,300&display=swap');
+:root {
+    --primary-color: rgb(15, 138, 245);
+    --primary-color-dark: rgb(5, 62, 111);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: 200;
+    line-height: 1.7em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.paragrafo-resultado {
+    background: rgb(62, 230, 129);
+    padding: 10px 20px;
+}
+
+.paragrafo-resultado-1 {
+    background: rgb(236, 43, 43);
+    padding: 10px 20px;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer
+}
+
+form button:hover {
+    background: var(--primary-color-dark);
+    font-style: italic;
+}
